@@ -67,24 +67,24 @@ Pastikan kamu sudah menginstal:
 - Git
 
 ### Setup
-\`\`\`bash
+```bash
 # Clone repository
 git clone https://github.com/username/kopi-journey.git
 cd kopi-journey
-\`\`\`
+```
 
 ### Install
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ### Environment Setup
 Buat file `.env` berdasarkan `.env.example` dan isi dengan konfigurasi yang sesuai (tanpa mempublikasikan kredensial).
 
 ### Run Development
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 ## 👥 Authors
 **Alfito Nur Fadhila**  
