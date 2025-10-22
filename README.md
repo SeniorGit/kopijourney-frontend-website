@@ -1,75 +1,110 @@
-# ☕ Kopi Journey - Transparent Coffee Supply Chain
+# ☕ Kopi Journey — From Farm to Cup, Every Sip Tells a Story
 
-> From Farm to Cup, Every Sip Tells a Story
+### 🌍 Transparent Coffee Supply Chain Platform
 
-![Project Banner](https://via.placeholder.com/1200x400)
-![Next.js](https://img.shields.io/badge/Next.js-14-black)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
-![Node.js](https://img.shields.io/badge/Node.js-18-green)
+Kopi Journey adalah platform web fullstack yang menghubungkan petani kopi, roaster, dan penikmat kopi dalam satu ekosistem digital yang transparan.  
+Proyek ini dirancang untuk menghadirkan **transparansi rantai pasok**, **cerita di balik setiap biji kopi**, serta **pengalaman personal bagi konsumen**.
 
-## 🎯 Overview
+## 🛠 Built With
 
-Kopi Journey adalah platform inovatif yang membawa transparansi penuh ke dalam rantai pasok kopi. Kami menghubungkan petani, roaster, dan pecinta kopi melalui sistem pelacakan yang dapat diverifikasi dan pengalaman personalisasi yang mendalam.
+### Frontend
+- [Next.js 14 (App Router)](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
 
-**Nilai Utama:**
-- 🌱 **Transparansi Total** - Setiap biji kopi memiliki cerita yang jelas dari kebun ke cangkir
-- ☕ **Kesesuaian Rasa** - Rekomendasi personal berdasarkan preferensi taste
-- 🔗 **Koneksi Langsung** - Menghubungkan konsumen langsung dengan produsen
-- 📊 **Jejak Berkelanjutan** - Metrik dampak lingkungan yang terukur
+### Backend
+- [Node.js + Express.js](https://expressjs.com/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Redis](https://redis.io/)
+- [Socket.io](https://socket.io/)
 
-## ✨ Fitur Utama
+### Services & APIs
+- [Mapbox](https://www.mapbox.com/) — Geolocation  
+- [Cloudinary](https://cloudinary.com/) — Media Storage  
+- [Resend](https://resend.com/) — Email Delivery  
+- [Vercel Analytics](https://vercel.com/analytics) — Performance Tracking
 
-### 🌿 Pelacakan Rantai Pasok
-- Riwayat perjalanan kopi yang immutable
-- Update real-time di setiap checkpoint
-- Sertifikasi kualitas dan keberlanjutan
+## 🚀 Key Features
+- 🌱 **Supply Chain Transparency** — Lacak perjalanan kopi dari petani hingga ke cangkir.
+- ☕ **Personalized Recommendations** — Rekomendasi kopi berdasarkan profil rasa pengguna.
+- 🔒 **Secure Authentication** — Sistem login dengan token-based authentication.
+- 📦 **Order & Inventory System** — Manajemen produk dan pesanan secara real-time.
+- 📊 **Farmer & Roaster Dashboard** — Tampilan analitik sederhana untuk pengelolaan data.
 
-### 🎯 Personalisasi 
-- Rekomendasi kopi berbasis AI
-- Kuis profil rasa yang interaktif
-- Saran blend dan metode brewing
+## 🎯 Functional Overview
 
-### ⚡ Smart Scheduling
-- Sistem jadwal roasting yang optimal
-- Manajemen kapasitas roaster
-- Pengiriman tepat waktu
+### 👥 User Management
+- Registrasi & login dengan verifikasi email.  
+- Role-based access: *Consumer, Farmer, Roaster, Admin.*  
+- Pengelolaan profil dengan data preferensi & riwayat transaksi.
 
-### 📈 Analytics Dashboard
-- Insight performa untuk petani
-- Analytics preferensi konsumen
-- Metrik efisiensi rantai pasok
+### 🌍 Coffee Journey Tracking
+- Petani dapat menambahkan data batch panen, lokasi, dan kualitas.  
+- Visualisasi perjalanan kopi dalam bentuk **timeline interaktif dan peta geografis**.
 
-## 🛠 Tech Stack
+### 🛒 Product Catalog
+- Sistem katalog produk dengan pencarian dan filter berdasarkan asal, rasa, atau roaster.  
+- Setiap batch kopi memiliki **cerita unik dan metrik kualitas**.
 
-**Frontend:**
-- Next.js 14, TypeScript, Tailwind CSS
-- Framer Motion untuk animasi
+### 💳 Order Management
+- Fitur keranjang belanja, checkout, dan pelacakan pesanan secara real-time.  
+- Notifikasi status pemanggangan dan pengiriman.
 
-**Backend:**
-- Node.js, Express.js, PostgreSQL
-- Redis untuk caching dan sessions
+## ⚙️ Non-Functional Highlights (Publik)
+- 🚀 **Performance:** Halaman utama memuat < 2 detik.  
+- 🔐 **Security:** Enkripsi data dan perlindungan terhadap XSS/SQL Injection.  
+- 📱 **Responsive Design:** Optimal di desktop, tablet, dan perangkat mobile.  
+- 🌍 **Accessibility:** Mengikuti standar **WCAG 2.1 AA**.  
+- 🧠 **Maintainability:** Menggunakan TypeScript, ESLint, dan Prettier untuk konsistensi kode.
 
-**Layanan:**
-- Mapbox untuk geolocation
-- Cloudinary untuk manajemen gambar
-- Resend untuk email services
+## 💻 Getting Started
 
-**Deployment:**
-- Vercel (frontend), Railway (backend)
-- GitHub Actions (CI/CD)
+### Prerequisites
+Pastikan kamu sudah menginstal:
+- Node.js 18+
+- PostgreSQL
+- Git
 
-## 🚀 Mulai Berkembang
-
-```bash
+### Setup
+\`\`\`bash
 # Clone repository
-git clone https://github.com/yourusername/kopi-journey.git
+git clone https://github.com/username/kopi-journey.git
 cd kopi-journey
+\`\`\`
 
-# Install dependencies
+### Install
+\`\`\`bash
 npm install
+\`\`\`
 
-# Setup environment
-cp .env.example .env.local
+### Environment Setup
+Buat file `.env` berdasarkan `.env.example` dan isi dengan konfigurasi yang sesuai (tanpa mempublikasikan kredensial).
 
-# Run development server
+### Run Development
+\`\`\`bash
 npm run dev
+\`\`\`
+
+## 👥 Authors
+**Alfito Nur Fadhila**  
+- GitHub: [@alfitoNF](https://github.com/SeniorGit)  
+- LinkedIn: [linkedin.com/in/alfito-nur-fadhila](https://linkedin.com/in/alfitofadhil-dev)
+
+## 🔭 Future Features
+- 🔮 AI-based coffee blend recommendations  
+- 📱 Progressive Web App (PWA) support  
+- 🌐 Blockchain-based traceability system  
+- 💬 Community space for farmers and roasters
+
+## 🙏 Acknowledgements
+Proyek ini terinspirasi dari semangat *"transparency in every sip"*, dan bertujuan untuk memberdayakan komunitas kopi lokal melalui teknologi modern.
+
+---
+
+## 📝 License
+This project is licensed under the [MIT License](./LICENSE).
+
+---
+
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
