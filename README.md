@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ☕ Kopi Journey - Transparent Coffee Supply Chain
 
-## Getting Started
+> From Farm to Cup, Every Sip Tells a Story
 
-First, run the development server:
+![Project Banner](https://via.placeholder.com/1200x400)
+![Next.js](https://img.shields.io/badge/Next.js-14-black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
+![Node.js](https://img.shields.io/badge/Node.js-18-green)
+
+## 🎯 Overview
+
+Kopi Journey adalah platform inovatif yang membawa transparansi penuh ke dalam rantai pasok kopi. Kami menghubungkan petani, roaster, dan pecinta kopi melalui sistem pelacakan yang dapat diverifikasi dan pengalaman personalisasi yang mendalam.
+
+**Nilai Utama:**
+- 🌱 **Transparansi Total** - Setiap biji kopi memiliki cerita yang jelas dari kebun ke cangkir
+- ☕ **Kesesuaian Rasa** - Rekomendasi personal berdasarkan preferensi taste
+- 🔗 **Koneksi Langsung** - Menghubungkan konsumen langsung dengan produsen
+- 📊 **Jejak Berkelanjutan** - Metrik dampak lingkungan yang terukur
+
+## ✨ Fitur Utama
+
+### 🌿 Pelacakan Rantai Pasok
+- Riwayat perjalanan kopi yang immutable
+- Update real-time di setiap checkpoint
+- Sertifikasi kualitas dan keberlanjutan
+
+### 🎯 Personalisasi 
+- Rekomendasi kopi berbasis AI
+- Kuis profil rasa yang interaktif
+- Saran blend dan metode brewing
+
+### ⚡ Smart Scheduling
+- Sistem jadwal roasting yang optimal
+- Manajemen kapasitas roaster
+- Pengiriman tepat waktu
+
+### 📈 Analytics Dashboard
+- Insight performa untuk petani
+- Analytics preferensi konsumen
+- Metrik efisiensi rantai pasok
+
+## 🛠 Tech Stack
+
+**Frontend:**
+- Next.js 14, TypeScript, Tailwind CSS
+- Framer Motion untuk animasi
+
+**Backend:**
+- Node.js, Express.js, PostgreSQL
+- Redis untuk caching dan sessions
+
+**Layanan:**
+- Mapbox untuk geolocation
+- Cloudinary untuk manajemen gambar
+- Resend untuk email services
+
+**Deployment:**
+- Vercel (frontend), Railway (backend)
+- GitHub Actions (CI/CD)
+
+## 🚀 Mulai Berkembang
 
 ```bash
+# Clone repository
+git clone https://github.com/yourusername/kopi-journey.git
+cd kopi-journey
+
+# Install dependencies
+npm install
+
+# Setup environment
+cp .env.example .env.local
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
